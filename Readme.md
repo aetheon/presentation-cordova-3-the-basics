@@ -3,4 +3,4 @@
 
 Presentation by Oscar Brito (@aetheon)
 
-[Click to see the Presentation](https://raw.github.com/aetheon/presentation-cordova-3-the-basics/master/index.html)
+[Click to see the Presentation](https://rawgithub.com/aetheon/presentation-cordova-3-the-basics/master/index.html)
