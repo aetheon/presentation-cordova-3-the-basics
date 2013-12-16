@@ -70,9 +70,12 @@
 					<p>Create a Project</p>
 					<pre>
 						<code>
-							cordova create Project -d
-							cd Project
+							cd $basedir
+						
+							cordova create $Project -d
+							cd $Project
 
+							# create an android project
 							cordova platform add android -d
 
 						</code>
@@ -95,6 +98,10 @@
 				<section>
 					<h2>Build</h2>
 					
+					<p>
+					The build process copies the files from the www/ and plugins/ directory
+					to the platform and configure things like cordova_plugins.js.
+					</p>
 					<pre>
 						<code>
 							
@@ -103,12 +110,6 @@
 
 						</code>
 					</pre>
-
-					<ul>
-						<li>Create cordova_plugins.js to declare the available plugins</li>
-						<li>Plugins platform code is overwritten by plugins/ stuff</li>
-						<li>...</li>
-					</ul>
 
 				</section>
 
